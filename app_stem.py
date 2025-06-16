@@ -13,7 +13,7 @@ with st.container():
     left, mid, right = st.columns([3, 4, 3])  # Wider center for better balance
     with mid:
         st.image("website.png", width=400)
-st.title("Caivil’s Prediction")
+st.title("Caivil’s Data Crystal Ball")
 st.write('Your Linear Regression Predictor')
 st.write('By Caivil Ndobela')
 st.write("   ")
