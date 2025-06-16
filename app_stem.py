@@ -35,20 +35,20 @@ data = st.file_uploader(" ", type="csv")
 
 if data is not None:
     try:
-        df = pd.read_csv(data)
+        data = pd.read_csv(data)
         st.write("Data preview:")
-        st.dataframe(df.head())
+        st.dataframe(data.head())
         
-        if len(df.columns) >= 2:  # Check if there are at least 2 columns
+        if len(data.columns) >= 2:  # Check if there are at least 2 columns
             # Let user select columns
             col1, col2 = st.columns(2)
             with col1:
-                x_col = st.selectbox("Select X (independent) variable", df.columns)
+                x_col = st.selectbox("Select X (independent) variable", data.columns)
             with col2:
-                y_col = st.selectbox("Select Y (dependent) variable", df.columns)
+                y_col = st.selectbox("Select Y (dependent) variable", data.columns)
             
-            X = df[[x_col]]
-            y = df[[y_col]]
+            X = data[[x_col]]
+            y = data[[y_col]]
 
             # Split data
             X_train, X_test, y_train, y_test = train_test_split(
