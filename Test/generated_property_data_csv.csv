@@ -1,0 +1,31 @@
+﻿city,distance_km,property_type,price_usd,bedrooms,bathrooms,sq_meters
+New York,0.5,Apartment,1200000,2,2,85
+New York,2,Apartment,950000,2,1,75
+New York,5,Townhouse,850000,3,2,120
+New York,10,House,750000,4,2.5,180
+New York,15,House,600000,3,2,150
+New York,20,House,450000,3,1.5,130
+London,1,Flat,900000,1,1,65
+London,3,Apartment,750000,2,1,80
+London,7,Terraced House,650000,3,2,110
+London,12,House,500000,4,2,160
+London,18,House,375000,3,1,125
+London,25,House,275000,3,1,110
+Tokyo,0.3,Apartment,950000,1,1,40
+Tokyo,1.5,Apartment,800000,2,1,55
+Tokyo,4,Apartment,650000,2,1,50
+Tokyo,8,House,500000,3,2,90
+Tokyo,15,House,350000,4,2,120
+Tokyo,22,House,250000,3,1.5,100
+Sydney,1,Apartment,1100000,2,2,85
+Sydney,4,Apartment,850000,3,2,100
+Sydney,8,House,750000,4,2,150
+Sydney,12,House,600000,3,2,130
+Sydney,20,House,450000,3,1,110
+Sydney,30,House,320000,4,2,140
+Berlin,2,Apartment,500000,2,1,75
+Berlin,5,Apartment,400000,3,1,90
+Berlin,10,House,350000,4,2,130
+Berlin,15,House,280000,3,1.5,110
+Berlin,25,House,200000,3,1,100
+Berlin,35,House,150000,4,2,125
