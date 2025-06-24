@@ -20,16 +20,13 @@ st.write("   ")
 st.write("   ")
 st.write("   ")
 
-         
-         
-         
-
+        
 # User detail
 x = st.text_input("Please type your preferred name below:")
 if x:  
     st.write(f"Hi {x}! Welcome to your personal linear predictor! Before we get started, please make sure your data is cleaned and ready to go. This will help the system work smoothly and give you the best results.")
 
-# Add a section for publications
+# Add a section for adding data
 st.header("Upload data as CSV")
 data = st.file_uploader(" ", type="csv")
 
